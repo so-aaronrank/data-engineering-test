@@ -36,8 +36,6 @@ You're building analytics infrastructure for a large restaurant chain. The opera
 | Events per order | ~4 events average |
 | Dashboard refresh | Near real-time (< 10 second latency acceptable) |
 | Query SLA | P95 < 500ms for dashboard queries |
-| Data retention | 1 year raw events, 3 years aggregated |
-| Budget | Cost-conscious but not the primary driver |
 
 ### Data Quality Realities
 
@@ -47,7 +45,6 @@ Your ingestion pipeline must handle:
 - **Late arrivals**: Events can arrive up to 5 minutes late
 - **Out-of-order**: Events may arrive out of sequence
 - **Malformed data**: ~0.1% of events have issues (missing fields, bad types)
-- **Clock drift**: Restaurant systems may have clocks off by up to 30 seconds
 
 ---
 
