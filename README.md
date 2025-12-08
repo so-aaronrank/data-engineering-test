@@ -61,7 +61,6 @@ Choose a primary datastore and justify your choice. Consider:
 - Read patterns (time-based aggregations, real-time dashboards)
 - Scaling model (how does it handle 20K locations?)
 - Operational complexity (your team has 3 data engineers)
-- Cost model
 
 Some options to consider (not exhaustive):
 - PostgreSQL / TimescaleDB
