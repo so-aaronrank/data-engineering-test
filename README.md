@@ -288,11 +288,7 @@ Yearly: ~3.2B events, ~1.6 TB uncompressed
 ## Getting Started
 
 1. Review the requirements and event schemas
-2. Sketch out your architecture (we'll discuss before you code)
+2. Sketch out your architecture
 3. Implement schema and ingestion
-4. Write and test queries
+4. Write queries
 5. Discuss trade-offs and alternatives
-
-**Sample data file**: `sample_events.jsonl`
-
-Ready when you are—let's start with your initial thoughts on the architecture.
