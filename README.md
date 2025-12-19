@@ -4,6 +4,8 @@
 
 Design and implement a real-time analytics system that processes restaurant operations events and powers a live dashboard. This is a collaborative exercise—think of it as pair programming. Feel free to ask questions, discuss trade-offs, and use any resources (documentation, LLMs, etc.).
 
+![Alt text](assets/Architecture.png)
+
 **Duration: 60 minutes**
 
 | Phase | Time | Focus |
