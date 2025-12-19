@@ -36,7 +36,6 @@ You're building analytics infrastructure for a large restaurant chain. The opera
 | Peak load | 100 orders/second (lunch & dinner rushes) |
 | Baseline load | 1 order/second (overnight) |
 | Event types | 4 (table_seated, order_placed, order_completed, payment) |
-| Events per order | ~4 events average |
 | Dashboard refresh | Near real-time (< 10 second latency acceptable) |
 | Query SLA | P95 < 500ms for dashboard queries |
 
