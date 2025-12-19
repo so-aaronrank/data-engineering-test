@@ -72,7 +72,7 @@ Some options to consider (not exhaustive):
 - DynamoDB + something else
 - BigQuery / Snowflake / Redshift
 - Kafka + ksqlDB
-- Or a combination
+- Something else
 
 **2. Ingestion Architecture**
 
